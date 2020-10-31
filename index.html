@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Google Homepage TOP Project</title>
+        <style>
+            .glogo {
+                display: block;
+                margin: auto;
+                padding: 25px;
+            }
+            .movebuttons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 25px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: coral;
+            }
+            li {
+                display: inline;
+                float: left;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .left {
+                float: left;
+            }
+            .right {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <div class="left">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#about">About</a></li>
+                </div>
+                <div class="right">
+                    <li><a href="#gmail">Gmail</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#gapps">Apps</a></li>
+                    <li><a href="#gaccount">Account</a></li>
+                </div>
+            </ul>
+        </nav>
+        <a href="#"><img class="glogo"
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="the multi colored Google logo"></a>
+        <div class="movebuttons">
+            <form action="servername.com">
+            <input type="text" placeholder="type here">
+            <button type="submit">Search</button>
+            <button type="submit">I'm feeling Lucky</button>
+            </form>
+        </div>
+        <footer>
+            <nav>
+            <ul>
+                <div class="left">
+                    <li><a href="#advertising">Advertising</a></li>
+                    <li><a href="#business">Business</a></li>
+                    <li><a href="#how">How Search Works</a></li>
+                    </div>
+                <div class="right">
+                    <li><a href="#privacy">Privacy</a></li>
+                    <li><a href="#terms">Terms</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                    </div>
+            </ul>
+        </nav>
+    </footer>
+    </body>
+</html>
